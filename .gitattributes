@@ -1,0 +1,9 @@
+src/assets/image-placement.svg filter=lfs diff=lfs merge=lfs -text
+src/assets/logo.svg filter=lfs diff=lfs merge=lfs -text
+src/assets/menu-dash.svg filter=lfs diff=lfs merge=lfs -text
+src/assets/profile.svg filter=lfs diff=lfs merge=lfs -text
+src/assets/single-star-gold.svg filter=lfs diff=lfs merge=lfs -text
+src/assets/single-star-grey.svg filter=lfs diff=lfs merge=lfs -text
+src/assets/data.json filter=lfs diff=lfs merge=lfs -text
+src/assets/full-star.svg filter=lfs diff=lfs merge=lfs -text
+src/assets/to-top.svg filter=lfs diff=lfs merge=lfs -text
