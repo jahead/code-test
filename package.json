@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "code-test",
+  "name": "code-test-lib",
   "author": "Joshua Head",
   "module": "dist/code-test.esm.js",
   "size-limit": [
@@ -50,6 +50,7 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.12.13",
+    "@rollup/plugin-image": "^2.0.6",
     "@size-limit/preset-small-lib": "^4.9.2",
     "@storybook/addon-essentials": "^6.1.17",
     "@storybook/addon-info": "^5.3.21",

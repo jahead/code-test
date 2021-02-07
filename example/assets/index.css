@@ -1,0 +1,7 @@
+.footer-link:not(:first-child)::before {
+  content: '| ';
+}
+
+.bread-crumb-list-item > span:not(:first-child)::before {
+  content: '> ';
+}
