@@ -10,7 +10,11 @@ const containerStyle = {
 
 const imgStyle = { width: '50%', height: '50%' };
 
-export const CardImage = (props: { url?: string }) => {
+export type CardImageProps = {
+  url?: string;
+};
+
+export const CardImage = (props: CardImageProps) => {
   return (
     <div style={containerStyle}>
       <img

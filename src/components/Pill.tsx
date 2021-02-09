@@ -18,7 +18,12 @@ const style: React.CSSProperties = {
   borderRadius: '16px',
 };
 
-export const Pill = (props: { colour: 'green' | 'red'; text: string }) => {
+export type PillProps = {
+  colour: 'green' | 'red';
+  text: string;
+};
+
+export const Pill = (props: PillProps) => {
   const local = { ...style, backgroundColor: PILL_COLOUR_MASK[props.colour] };
   return <div style={local}>{props.text}</div>;
 };
