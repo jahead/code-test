@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pill } from '../../Pill';
 
-type PublishPillProps = {
+export type PublishPillProps = {
   published: boolean;
 };
 
