@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ImagePlacement from '../../assets/image-placement.svg';
+import ImagePlacement from '../../../assets/image-placement.svg';
 
 const containerStyle = {
   display: 'flex',
