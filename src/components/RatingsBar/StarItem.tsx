@@ -7,22 +7,21 @@ export type StarItemProps = {
   onClick: () => void;
 };
 
+const style = {
+  display: 'flex',
+  flex: 1,
+  margin: 'auto',
+  marginBlockStart: '0',
+  marginRight: '8px',
+  width: '1em',
+};
+
 export const StarItem = (props: StarItemProps) => {
   const star = props.enabled ? GoldStar : GreyStar;
   const alt = props.enabled ? 'Gold Star' : 'Grey Star';
   const { onClick = () => {} } = props;
   return (
-    <div
-      onClick={() => onClick()}
-      style={{
-        display: 'flex',
-        flex: 1,
-        margin: 'auto',
-        marginBlockStart: '0',
-        marginRight: '8px',
-        width: '1em',
-      }}
-    >
+    <div onClick={() => onClick()} style={style}>
       <img src={star} alt={alt} />
     </div>
   );
