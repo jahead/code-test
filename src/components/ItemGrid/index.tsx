@@ -1,16 +1,12 @@
-import React from 'react';
+import React, { CSSProperties } from 'react';
 
-export const ItemGrid: React.FC = props => {
-  return (
-    <div
-      style={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        alignContent: 'space-evenly',
-        justifyContent: 'flex-start',
-      }}
-    >
-      {props.children}
-    </div>
-  );
+const style: CSSProperties = {
+  display: 'flex',
+  flexWrap: 'wrap',
+  alignContent: 'space-evenly',
+  justifyContent: 'flex-start',
 };
+
+export const ItemGrid: React.FC = props => (
+  <div style={style}>{props.children}</div>
+);
